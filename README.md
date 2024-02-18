@@ -75,7 +75,7 @@ print('The value in fahrenheit is', f)
 
 
 
-my_numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_numbers = [7, 2, 4, 11, 19, 24, 66, 1, 42, 22, 37, 5, 3, 92, 73]
 
 user_input = input("Please enter a string (even/odd): ").lower()
 
@@ -85,6 +85,9 @@ elif user_input == "odd":
     print("Odd numbers from the list are:", [num for num in my_numbers if num % 2 != 0])
 else:
     print("Unknown Input!")
+
+
+
 
 
 
